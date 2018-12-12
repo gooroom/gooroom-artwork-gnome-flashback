@@ -1,0 +1,35 @@
+[Toplevel bottom-panel]
+expand=true
+orientation=bottom
+size=40
+y-bottom=0
+
+[Object gooroom-applauncher-applet]
+object-iid=GooroomApplauncherAppletFactory::GooroomApplauncherApplet
+toplevel-id=bottom-panel
+pack-type=start
+pack-index=0
+
+[Object dockbarx-applet]
+object-iid=DockbarxAppletFactory::DockbarxApplet
+toplevel-id=bottom-panel
+pack-type=start
+pack-index=1
+
+[Object notification-area]
+object-iid=NotificationAreaAppletFactory::NotificationArea
+toplevel-id=bottom-panel
+pack-type=end
+pack-index=2
+
+[Object gooroom-integration-applet]
+object-iid=GooroomIntegrationAppletFactory::GooroomIntegrationApplet
+toplevel-id=bottom-panel
+pack-type=end
+pack-index=1
+
+[Object show-destkop]
+object-iid=WnckletFactory::ShowDesktopApplet
+toplevel-id=bottom-panel
+pack-type=end
+pack-index=0

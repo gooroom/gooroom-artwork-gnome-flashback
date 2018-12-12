@@ -1,0 +1,11 @@
+#!/bin/bash
+
+GOOROOM_PANEL_DEFAULT_LAYOUT=panel-default-layout.layout
+SOURCE_DIR=/usr/share/gooroom-artwork-gnome-flashback
+TARGET_DIR=/usr/share/gnome-panel
+
+if [ -e $SOURCE_DIR/$GOOROOM_PANEL_DEFAULT_LAYOUT ]; then
+   cp $SOURCE_DIR/$GOOROOM_PANEL_DEFAULT_LAYOUT $TARGET_DIR
+fi
+
+

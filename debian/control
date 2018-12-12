@@ -1,0 +1,14 @@
+Source: gooroom-artwork-gnome-flashback
+Section: gnome
+Priority: optional
+Maintainer: gooroom <gooroom@gooroom.kr>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: http://git.gooroom.kr/gooroom-artwork-gnome-flashback
+
+Package: gooroom-artwork-gnome-flashback
+Architecture: all
+Depends: libglib2.0-bin, gnome-panel-data,
+         dockbarx, dockbarx-common, dockbarx-dockx
+Description: Default artwork for Gooroom Plaform 2.0
+ Panel, schemas and all the artwork on Gooroom Plaform 2.0

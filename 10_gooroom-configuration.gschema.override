@@ -1,0 +1,14 @@
+[org.gnome.desktop.background]
+show-desktop-icons=false
+picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_bg_17.jpg'
+
+[org.gnome.desktop.interface]
+gtk-theme='Arc'
+icon-theme='Gooroom-Line'
+
+[org.gnome.gnome-flashback]
+bluetooth-applet=false
+power-applet=false
+sound-applet=false
+status-notifier-watcher=true
+desktop-background=true
