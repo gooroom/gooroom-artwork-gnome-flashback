@@ -4,11 +4,24 @@ picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_bg_17.jpg'
 
 [org.gnome.desktop.interface]
 gtk-theme='Arc'
-icon-theme='Gooroom-Line'
+icon-theme='Gooroom-Papirus'
+font-name='Cantarell 10'
+document-font-name='Sans 10'
 
 [org.gnome.gnome-flashback]
 bluetooth-applet=false
 power-applet=false
 sound-applet=false
-status-notifier-watcher=true
+status-notifier-watcher=false
 desktop-background=true
+
+[org.gnome.gnome-panel.toplevel.theme]
+bg-image='file:///usr/share/backgrounds/gooroom/panel-bg.png'
+bg-color='rgb(0,0,0)'
+custom-bg-color=true
+custom-bg-image=true
+
+[org.gnome.desktop.screensaver]
+picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_bg_17.jpg'
+user-switch-enabled=false
+lock-delay=0

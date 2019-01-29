@@ -1,7 +1,7 @@
 [Toplevel bottom-panel]
 expand=true
 orientation=bottom
-size=40
+size=33
 y-bottom=0
 
 [Object gooroom-applauncher-applet]
@@ -20,6 +20,12 @@ pack-index=1
 object-iid=NotificationAreaAppletFactory::NotificationArea
 toplevel-id=bottom-panel
 pack-type=end
+pack-index=3
+
+[Object gooroom-indicator-applet]
+object-iid=GooroomIndicatorAppletFactory::GooroomIndicatorApplet
+toplevel-id=bottom-panel
+pack-type=end
 pack-index=2
 
 [Object gooroom-integration-applet]
@@ -28,8 +34,8 @@ toplevel-id=bottom-panel
 pack-type=end
 pack-index=1
 
-[Object show-destkop]
-object-iid=WnckletFactory::ShowDesktopApplet
+[Object gooroom-showdesktop-applet]
+object-iid=GooroomShowDesktopAppletFactory::GooroomShowDesktopApplet
 toplevel-id=bottom-panel
 pack-type=end
 pack-index=0
