@@ -5,8 +5,8 @@ picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_bg_17.jpg'
 [org.gnome.desktop.interface]
 gtk-theme='Arc'
 icon-theme='Gooroom-Papirus'
-font-name='Cantarell 10'
-document-font-name='Sans 10'
+font-name='NanumGothic 10'
+document-font-name='NanumGothic 10'
 
 [org.gnome.gnome-flashback]
 bluetooth-applet=false
@@ -25,3 +25,15 @@ custom-bg-image=true
 picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_bg_17.jpg'
 user-switch-enabled=false
 lock-delay=0
+
+[org.gnome.desktop.lockdown]
+disable-user-switching=true
+
+[org.gnome.nautilus.icon-view]
+default-zoom-level='small'
+
+[org.gnome.nautilus.list-view]
+default-zoom-level='small'
+
+[org.gnome.settings-daemon.plugins.power]
+sleep-inactive-ac-timeout=0
