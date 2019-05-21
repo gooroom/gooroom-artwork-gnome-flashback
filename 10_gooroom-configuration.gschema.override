@@ -15,11 +15,14 @@ sound-applet=false
 status-notifier-watcher=false
 desktop-background=true
 
+[org.gnome.gnome-panel.toplevel]
+size=60
+
 [org.gnome.gnome-panel.toplevel.theme]
-bg-image='file:///usr/share/backgrounds/gooroom/panel-bg.png'
-bg-color='rgb(0,0,0)'
+bg-color='rgba(0,0,0,0.8)'
+fg-color='rgb(255,255,255)'
 custom-bg-color=true
-custom-bg-image=true
+custom-fg-color=true
 
 [org.gnome.desktop.screensaver]
 picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_bg_17.jpg'
