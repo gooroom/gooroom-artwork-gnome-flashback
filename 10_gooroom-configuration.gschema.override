@@ -1,6 +1,7 @@
 [org.gnome.desktop.background]
 show-desktop-icons=false
-picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_bg_17.jpg'
+picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_bg_29.jpg'
+picture-options='stretched'
 
 [org.gnome.desktop.interface]
 gtk-theme='Arc'
@@ -23,7 +24,8 @@ custom-bg-color=true
 custom-fg-color=true
 
 [org.gnome.desktop.screensaver]
-picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_bg_17.jpg'
+picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_bg_29.jpg'
+picture-options='stretched'
 user-switch-enabled=false
 lock-delay=0
 
