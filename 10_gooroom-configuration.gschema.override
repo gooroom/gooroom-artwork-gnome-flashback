@@ -17,6 +17,9 @@ sound-applet=false
 status-notifier-watcher=false
 desktop-background=true
 
+[org.gnome.desktop.wm.preferences]
+num-workspaces=1
+
 [org.gnome.gnome-panel.toplevel.theme]
 bg-color='rgba(0,0,0,0.8)'
 fg-color='rgb(255,255,255)'
