@@ -20,10 +20,16 @@ pack-index=1
 object-iid=NotificationAreaAppletFactory::NotificationArea
 toplevel-id=bottom-panel
 pack-type=end
-pack-index=3
+pack-index=4
 
 [Object gooroom-indicator-applet]
 object-iid=GooroomIndicatorAppletFactory::GooroomIndicatorApplet
+toplevel-id=bottom-panel
+pack-type=end
+pack-index=3
+
+[Object gooroom-notice-applet]
+object-iid=GooroomNoticeAppletFactory::GooroomNoticeApplet
 toplevel-id=bottom-panel
 pack-type=end
 pack-index=2
