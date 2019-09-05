@@ -1,7 +1,7 @@
 [Toplevel bottom-panel]
 expand=true
 orientation=bottom
-size=48
+size=60
 y-bottom=0
 
 [Object gooroom-applauncher-applet]
