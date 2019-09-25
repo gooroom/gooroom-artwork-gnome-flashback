@@ -43,3 +43,6 @@ default-zoom-level='small'
 
 [org.gnome.settings-daemon.plugins.power]
 sleep-inactive-ac-timeout=0
+
+[apps.gooroom-indicator-applet]
+blacklist=['nimf-indicator']
