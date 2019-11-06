@@ -31,7 +31,9 @@ case "$1" in
     ;;
 esac
 
-/etc/gooroom/adjustments/gooroom-update-panel-default-layout.execute
+if [ -e //etc/gooroom/adjustments/gooroom-update-panel-default-layout.execute ]; then
+    /etc/gooroom/adjustments/gooroom-update-panel-default-layout.execute
+fi
 
 glib-compile-schemas /usr/share/glib-2.0/schemas
 
@@ -40,4 +42,5 @@ if [ -e /usr/share/gooroom-artwork-gnome-flashback/mimeapps.list ]; then
     cp /usr/share/gooroom-artwork-gnome-flashback/mimeapps.list /usr/share/applications
     update-desktop-database /usr/share/applications
 fi
+
 exit 0
