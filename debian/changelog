@@ -1,3 +1,28 @@
+gooroom-artwork-gnome-flashback (0.2.1+grm2u1) unstable; urgency=medium
+
+  [ cjheo ]
+  * [939f3d1a] Modify desktop and panel settings
+  * [5dde3e3d] Update desktop settings
+  * [41190424] Update desktop settings#2
+  * [c72aa7ff] Modify default gschema for notifications
+  * [01ebe0aa] Changed panel size from 33 to 60
+  * [47223cb6] Modify desktop and screensaver background uri
+  * [ef7f1dbd] Resize panel height
+  * [c22ed891] Change the number of workspaces for a desktop
+  * [a5d05e38] Change panel height from 48px to 60px
+  * [278cc3be] Blacklist the 'nimf-indicator' module so that it does not appear in the indicator area
+
+  [ donghun ]
+  * [1222d2c5] Modify default layout to add gooroom-notice-applet
+
+  [ jongkyung.woo ]
+  * [f3616c8f] Added mimeapps.list
+  * [5f0432dc] Changed dockbarx dependencies to gooroom-dockbarx
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Sun, 01 Dec 2019 17:06:02 +0900
+
 gooroom-artwork-gnome-flashback (0.1.0) unstable; urgency=medium
 
   * Initial Release.
