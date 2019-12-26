@@ -1,4 +1,5 @@
 10_gooroom-configuration.gschema.override /usr/share/glib-2.0/schemas/
 panel-default-layout.layout /usr/share/gooroom-artwork-gnome-flashback/
-gooroom-update-panel-default-layout.execute /etc/gooroom/adjustments/
+update-panel-default-layout.execute /etc/gooroom/adjustments/
+update-mimeapps.list.execute /etc/gooroom/adjustments/
 mimeapps.list /usr/share/gooroom-artwork-gnome-flashback/

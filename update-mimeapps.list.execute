@@ -1,0 +1,16 @@
+#!/bin/bash
+
+GOOROOM_MIMEAPPS_LIST=mimeapps.list
+SOURCE_DIR=/usr/share/gooroom-artwork-gnome-flashback
+TARGET_DIR=/usr/share/applications
+
+if [ -e $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST ]; then
+    cp $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST $TARGET_DIR
+
+    if [ -e $TARGET_DIR/gnome-mimeapps.list ]; then
+        cp $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST $TARGET_DIR/gnome-mimeapps.list
+    fi
+
+    update-desktop-database /usr/share/applications
+fi
+
