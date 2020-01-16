@@ -3,3 +3,5 @@ panel-default-layout.layout /usr/share/gooroom-artwork-gnome-flashback/
 update-panel-default-layout.execute /etc/gooroom/adjustments/
 update-mimeapps.list.execute /etc/gooroom/adjustments/
 mimeapps.list /usr/share/gooroom-artwork-gnome-flashback/
+org.gnome.settings-daemon.plugins.color.gschema.xml /usr/share/gooroom-artwork-gnome-flashback/
+update-settings-daemon-plugins-color.execute /etc/gooroom/adjustments/
