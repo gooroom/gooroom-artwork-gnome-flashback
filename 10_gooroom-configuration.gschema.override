@@ -46,3 +46,7 @@ sleep-inactive-ac-timeout=0
 
 [apps.gooroom-indicator-applet]
 blacklist=['nimf-indicator']
+
+[org.gnome.nm-applet]
+disable-connected-notifications=true
+disable-disconnected-notifications=true
