@@ -35,6 +35,9 @@ lock-delay=0
 [org.gnome.desktop.lockdown]
 disable-user-switching=true
 
+[org.gnome.metacity]
+alt-tab-thumbnails=true
+
 [org.gnome.nautilus.icon-view]
 default-zoom-level='small'
 
