@@ -1,3 +1,19 @@
+gooroom-artwork-gnome-flashback (0.2.2+grm2u1) unstable; urgency=medium
+
+  [ jongkyung.woo ]
+  * [9cc8745f] Set show-desktop-icons to true
+  * [2957b5ab] Added update-mimeapps.list.execute
+
+  [ HaeRyong Jeong ]
+  * [8a4a16d1] [Bug: 1711] Removed sunset/sunrise feature of night shift.
+
+  [ cjheo ]
+  * [52cda222] Update gooroom-configuration to show thumbnails when alt+tab is clicked
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 11 Feb 2020 09:47:41 +0900
+
 gooroom-artwork-gnome-flashback (0.2.1+grm2u1) unstable; urgency=medium
 
   [ cjheo ]
