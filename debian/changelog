@@ -1,3 +1,15 @@
+gooroom-artwork-gnome-flashback (0.2.3+grm2u1) unstable; urgency=medium
+
+  [ cjheo ]
+  * [da55265b] [Bug:1802,1803] 사용자가 패널을 커스터마이징 할 수 없도록 옵션 추가
+
+  [ JeongHaeRyong ]
+  * [b276942f] [Bug:1711] Removed sunset/sunrise feature of night shift.
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 20 Feb 2020 19:33:21 +0900
+
 gooroom-artwork-gnome-flashback (0.2.2+grm2u1) unstable; urgency=medium
 
   [ jongkyung.woo ]
