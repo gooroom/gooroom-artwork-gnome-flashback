@@ -50,5 +50,8 @@ default-zoom-level='small'
 [org.gnome.settings-daemon.plugins.power]
 sleep-inactive-ac-timeout=0
 
+[org.gnome.settings-daemon.plugins.color]
+night-light-schedule-automatic=false
+
 [apps.gooroom-indicator-applet]
 blacklist=['nimf-indicator']
