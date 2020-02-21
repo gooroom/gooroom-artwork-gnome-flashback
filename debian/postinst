@@ -40,6 +40,7 @@ glib-compile-schemas /usr/share/glib-2.0/schemas
 # /usr/share/applications/mimeapps.list
 if [ -e /usr/share/gooroom-artwork-gnome-flashback/mimeapps.list ]; then
     cp /usr/share/gooroom-artwork-gnome-flashback/mimeapps.list /usr/share/applications
+    cp /usr/share/gooroom-artwork-gnome-flashback/mimeapps.list /usr/share/applications/gnome-mimeapps.list
     update-desktop-database /usr/share/applications
 fi
 
