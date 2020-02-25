@@ -1,0 +1,26 @@
+#!/bin/bash
+
+CUSTOM_KEYBINDING=00_gooroom-custom-keybinding
+PROFILE_USER=user
+
+SOURCE_DIR=/usr/share/gooroom-artwork-gnome-flashback/dconf
+TARGET_DB_DIR=/etc/dconf/db/site.d
+TARGET_PROFILE_DIR=/etc/dconf/profile
+
+# /etc/dconf/db/site.d/00_gooroom-custom-keybinding
+if [ -e $SOURCE_DIR/db/site.d/$CUSTOM_KEYBINDING ]; then
+    [ -e $TARGET_DB_DIR ] || mkdir -p $TARGET_DB_DIR
+    cp $SOURCE_DIR/db/site.d/$CUSTOM_KEYBINDING $TARGET_DB_DIR
+
+    # update the system dconf db
+    dconf update
+fi
+
+# /etc/dconf/profile/user
+if [ -e $SOURCE_DIR/profile/$PROFILE_USER ]; then
+    [ -e $TARGET_PROFILE_DIR ] || mkdir -p $TARGET_PROFILE_DIR
+    cp $SOURCE_DIR/profile/$PROFILE_USER $TARGET_PROFILE_DIR
+
+    # update the system dconf db
+    dconf update
+fi
