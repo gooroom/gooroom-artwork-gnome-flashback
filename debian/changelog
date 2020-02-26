@@ -1,3 +1,16 @@
+gooroom-artwork-gnome-flashback (0.2.4+grm2u1) unstable; urgency=medium
+
+  [ cjheo ]
+  * [ae97c02b] 스크린세이버 및 데스크톱 배경화면 처리 옵션 변경
+
+  [ jongkyung.woo ]
+  * [b30ebbf4] Added update-dconf-custom.execute
+  * [e6080348] Added debian-system-adjustments dependency
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Wed, 26 Feb 2020 09:43:42 +0900
+
 gooroom-artwork-gnome-flashback (0.2.3+grm2u1) unstable; urgency=medium
 
   [ cjheo ]
