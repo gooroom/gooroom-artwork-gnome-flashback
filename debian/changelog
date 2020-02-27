@@ -1,3 +1,12 @@
+gooroom-artwork-gnome-flashback (0.2.5+grm2u1) unstable; urgency=medium
+
+  [ jongkyung.woo ]
+  * [35c55046] Added libpam-mount dependency
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 27 Feb 2020 11:07:54 +0900
+
 gooroom-artwork-gnome-flashback (0.2.4+grm2u1) unstable; urgency=medium
 
   [ cjheo ]
