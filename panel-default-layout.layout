@@ -1,8 +1,6 @@
 [Toplevel bottom-panel]
-expand=true
 orientation=bottom
 size=60
-y-bottom=0
 
 [Object gooroom-applauncher-applet]
 object-iid=GooroomApplauncherAppletFactory::GooroomApplauncherApplet

@@ -60,6 +60,9 @@ night-light-schedule-automatic=false
 [apps.gooroom-indicator-applet]
 blacklist=['nimf-indicator']
 
+[apps.gooroom-notifyd]
+primary-monitor=1
+
 [org.gnome.desktop.wm.keybindings]
 begin-move=[]
 begin-resize=[]
