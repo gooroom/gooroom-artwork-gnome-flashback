@@ -67,7 +67,6 @@ application/x-gnumeric=gnumeric.desktop
 application/x-gtar=org.gnome.FileRoller.desktop
 application/x-gzip=org.gnome.FileRoller.desktop
 application/x-gzpostscript=evince.desktop
-application/x-hwp=hwpviewer.desktop
 application/xhtml+xml=gooroom-browser.desktop
 application/x-jar=sun-java6-java.desktop
 application/x-java-archive=sun-java6-java.desktop
