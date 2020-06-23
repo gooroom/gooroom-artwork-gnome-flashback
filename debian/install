@@ -2,6 +2,7 @@
 panel-default-layout.layout /usr/share/gooroom-artwork-gnome-flashback/
 mimeapps.list /usr/share/gooroom-artwork-gnome-flashback/
 dconf /usr/share/gooroom-artwork-gnome-flashback/
+freedesktop.org.xml /usr/share/gooroom-artwork-gnome-flashback/
 update-panel-default-layout.execute /etc/gooroom/adjustments/
 update-mimeapps.list.execute /etc/gooroom/adjustments/
 update-dconf-custom.execute /etc/gooroom/adjustments/

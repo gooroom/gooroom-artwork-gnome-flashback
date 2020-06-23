@@ -1,16 +1,48 @@
 #!/bin/bash
 
+#
+# Copyright (C) 2019-2020 jongkyung.woo <jkwoo@gooroom.kr>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+#
+
+GOOROOM_FREEDESKTOP_ORG=freedesktop.org.xml
 GOOROOM_MIMEAPPS_LIST=mimeapps.list
 SOURCE_DIR=/usr/share/gooroom-artwork-gnome-flashback
-TARGET_DIR=/usr/share/applications
 
-if [ -e $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST ]; then
-    cp $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST $TARGET_DIR
-
-    if [ -e $TARGET_DIR/gnome-mimeapps.list ]; then
-        cp $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST $TARGET_DIR/gnome-mimeapps.list
-    fi
+#
+# - /usr/share/mime/package/freedesktop.org.xml
+#
+if [ -e $SOURCE_DIR/$GOOROOM_FREEDESKTOP_ORG ]; then
+    target_dir=/usr/share/mime/package
+    cp $SOURCE_DIR/$GOOROOM_FREEDESKTOP_ORG $target_dir
 
     update-desktop-database /usr/share/applications
 fi
 
+#
+# - /usr/share/applications/mimeapps.list
+# - /usr/share/applications/gnome-mimeapps.list
+#
+if [ -e $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST ]; then
+    target_dir=/usr/share/applications
+    cp $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST $target_dir
+
+    if [ -e $target_dir/gnome-mimeapps.list ]; then
+        cp $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST $target_dir/gnome-mimeapps.list
+    fi
+
+    update-desktop-database /usr/share/applications
+fi
