@@ -23,10 +23,10 @@ GOOROOM_MIMEAPPS_LIST=mimeapps.list
 SOURCE_DIR=/usr/share/gooroom-artwork-gnome-flashback
 
 #
-# - /usr/share/mime/package/freedesktop.org.xml
+# - /usr/share/mime/packages/freedesktop.org.xml
 #
 if [ -e $SOURCE_DIR/$GOOROOM_FREEDESKTOP_ORG ]; then
-    target_dir=/usr/share/mime/package
+    target_dir=/usr/share/mime/packages
     cp $SOURCE_DIR/$GOOROOM_FREEDESKTOP_ORG $target_dir
 
     update-desktop-database /usr/share/applications

@@ -25,7 +25,7 @@ application/vnd.oasis.opendocument.formula=libreoffice-math.desktop
 application/vnd.oasis.opendocument.graphics=libreoffice-draw.desktop
 application/vnd.oasis.opendocument.graphics-template=libreoffice-draw.desktop
 application/vnd.oasis.opendocument.presentation=gooroom-browser.desktop
-application/vnd.oasis.opendocument.presentation-gooroom-browser.desktop
+application/vnd.oasis.opendocument.presentation-template=gooroom-browser.desktop
 application/vnd.oasis.opendocument.spreadsheet=gooroom-browser.desktop
 application/vnd.oasis.opendocument.spreadsheet-template=gooroom-browser.desktop
 application/vnd.oasis.opendocument.text=org.gnome.gedit.desktop
