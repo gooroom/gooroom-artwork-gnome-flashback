@@ -1,5 +1,5 @@
 [org.gnome.desktop.background]
-show-desktop-icons=true
+show-desktop-icons=false
 picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_bg_29.jpg'
 picture-options='zoom'
 primary-color='#000000'
