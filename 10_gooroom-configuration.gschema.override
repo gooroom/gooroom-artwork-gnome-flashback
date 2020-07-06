@@ -63,6 +63,12 @@ blacklist=['nimf-indicator']
 [apps.gooroom-notifyd]
 primary-monitor=1
 
+[org.gnome.settings-daemon.plugins.media-keys]
+www='<Super>b'
+home='<Super>e'
+logout='<Super>o'
+control-center='<Super>c'
+
 [org.gnome.desktop.wm.keybindings]
 begin-move=[]
 begin-resize=[]

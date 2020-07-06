@@ -16,8 +16,6 @@ Depends: libglib2.0-bin,
          gooroom-dockbarx-common,
          gooroom-dockbarx-dockx,
          debian-system-adjustments,
-# update-dconf-custom.execute
-         dconf-cli,
 # simple-cdd
          libpam-mount
 Description: Default artwork for Gooroom Plaform 2.0

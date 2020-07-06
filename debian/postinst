@@ -45,11 +45,6 @@ if [ -e /usr/share/gooroom-artwork-gnome-flashback/mimeapps.list ]; then
     update-desktop-database /usr/share/applications
 fi
 
-# update-dconf-custom.execute
-if [ -e /etc/gooroom/adjustments/update-dconf-custom.execute ]; then
-    /etc/gooroom/adjustments/update-dconf-custom.execute
-fi
-
 # update-metacity-navigation.execute
 if [ -e /etc/gooroom/adjustments/update-metacity-navigation.execute ]; then
     /etc/gooroom/adjustments/update-metacity-navigation.execute
