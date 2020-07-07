@@ -1,3 +1,48 @@
+gooroom-artwork-gnome-flashback (0.3.1+grm2u1) unstable; urgency=medium
+
+  [ cjheo ]
+  * [6b8381ee] 1.org.gnome.gnome-panel.toplevel.gschema.xml 에서 없어진 속성 삭제
+               2.알림메세지가 주(primary) 모니터에 나타나도록 속성수정
+  * [9b740598] ods/odp 확장자에 대한 연결프로그램 정의 추가
+  * [cf94056f] ods/odp 확장자 연결프로그램 정의(Recommit)
+               freedesktop.org.xml 복사위치 오류 수정
+  * [d98048be] 바탕화면 폴더 보이기 비활성화
+  * [a513b07c] 1. media-key 단축키 수정 2. 커스텀 단축키 삭제
+
+  [ jongkyung.woo ]
+  * [ce7883bc] [Bug:2395] Added /usr/share/mime/package/freedesktop.org.xml
+  * [6bf665e9] Modified License GPL-2.0+
+
+  [ HaeRyong Jeong ]
+  * [78445943] Removed hwpviewer mimetype
+  * [2cc12a8c] [Bug:2430] Added update-metacity-navigation.execute
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 07 Jul 2020 12:18:39 +0900
+
+gooroom-artwork-gnome-flashback (0.2.5+grm2u1) unstable; urgency=medium
+
+  [ jongkyung.woo ]
+  * [35c55046] Added libpam-mount dependency
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 27 Feb 2020 11:07:54 +0900
+
+gooroom-artwork-gnome-flashback (0.2.4+grm2u1) unstable; urgency=medium
+
+  [ cjheo ]
+  * [ae97c02b] 스크린세이버 및 데스크톱 배경화면 처리 옵션 변경
+
+  [ jongkyung.woo ]
+  * [b30ebbf4] Added update-dconf-custom.execute
+  * [e6080348] Added debian-system-adjustments dependency
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Wed, 26 Feb 2020 09:43:42 +0900
+
 gooroom-artwork-gnome-flashback (0.2.3+grm2u1) unstable; urgency=medium
 
   [ cjheo ]

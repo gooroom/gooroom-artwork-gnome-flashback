@@ -18,31 +18,12 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #
 
-GOOROOM_FREEDESKTOP_ORG=freedesktop.org.xml
-GOOROOM_MIMEAPPS_LIST=mimeapps.list
+GOOROOM_NAVIGATION=50-metacity-navigation.xml
 SOURCE_DIR=/usr/share/gooroom-artwork-gnome-flashback
+TARGET_DIR=/usr/share/gnome-control-center/keybindings
 
-#
-# - /usr/share/mime/packages/freedesktop.org.xml
-#
-if [ -e $SOURCE_DIR/$GOOROOM_FREEDESKTOP_ORG ]; then
-    target_dir=/usr/share/mime/packages
-    cp $SOURCE_DIR/$GOOROOM_FREEDESKTOP_ORG $target_dir
-
-    update-desktop-database /usr/share/applications
+if [ -e $SOURCE_DIR/$GGOOROOM_NAVIGATION ]; then
+   cp $SOURCE_DIR/$GOOROOM_NAVIGATION $TARGET_DIR
 fi
 
-#
-# - /usr/share/applications/mimeapps.list
-# - /usr/share/applications/gnome-mimeapps.list
-#
-if [ -e $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST ]; then
-    target_dir=/usr/share/applications
-    cp $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST $target_dir
 
-    if [ -e $target_dir/gnome-mimeapps.list ]; then
-        cp $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST $target_dir/gnome-mimeapps.list
-    fi
-
-    update-desktop-database /usr/share/applications
-fi

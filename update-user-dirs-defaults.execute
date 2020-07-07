@@ -18,31 +18,15 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #
 
-GOOROOM_FREEDESKTOP_ORG=freedesktop.org.xml
-GOOROOM_MIMEAPPS_LIST=mimeapps.list
+GOOROOM_USER_DIRS_DEFAULTS_ORG=user-dirs.defaults
 SOURCE_DIR=/usr/share/gooroom-artwork-gnome-flashback
 
 #
-# - /usr/share/mime/packages/freedesktop.org.xml
+# - /etc/xdg/user-dirs.defaults
 #
-if [ -e $SOURCE_DIR/$GOOROOM_FREEDESKTOP_ORG ]; then
-    target_dir=/usr/share/mime/packages
-    cp $SOURCE_DIR/$GOOROOM_FREEDESKTOP_ORG $target_dir
+if [ -e $SOURCE_DIR/$GOOROOM_USER_DIRS_DEFAULTS_ORG ]; then
+    target_dir=/etc/xdg
+    cp $SOURCE_DIR/$GOOROOM_USER_DIRS_DEFAULTS_ORG $target_dir
 
-    update-desktop-database /usr/share/applications
-fi
-
-#
-# - /usr/share/applications/mimeapps.list
-# - /usr/share/applications/gnome-mimeapps.list
-#
-if [ -e $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST ]; then
-    target_dir=/usr/share/applications
-    cp $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST $target_dir
-
-    if [ -e $target_dir/gnome-mimeapps.list ]; then
-        cp $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST $target_dir/gnome-mimeapps.list
-    fi
-
-    update-desktop-database /usr/share/applications
+    xdg-user-dirs-update
 fi

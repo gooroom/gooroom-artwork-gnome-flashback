@@ -10,7 +10,13 @@ Vcs-Browser: https://github.com/gooroom/gooroom-artwork-gnome-flashback
 
 Package: gooroom-artwork-gnome-flashback
 Architecture: all
-Depends: libglib2.0-bin, gnome-panel-data,
-         gooroom-dockbarx, gooroom-dockbarx-common, gooroom-dockbarx-dockx
+Depends: libglib2.0-bin,
+         gnome-panel-data,
+         gooroom-dockbarx,
+         gooroom-dockbarx-common,
+         gooroom-dockbarx-dockx,
+         debian-system-adjustments,
+# simple-cdd
+         libpam-mount
 Description: Default artwork for Gooroom Plaform 2.0
  Panel, schemas and all the artwork on Gooroom Plaform 2.0

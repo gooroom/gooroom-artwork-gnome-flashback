@@ -1,0 +1,28 @@
+#!/bin/bash
+# preinst script for gooroom-artwork-gnome-flashback
+#
+# see: dh_installdeb(1)
+
+CUSTOM_KEYBINDING=00_gooroom-custom-keybinding
+PROFILE_USER=user
+
+TARGET_DB_DIR=/etc/dconf/db/site.d
+TARGET_PROFILE_DIR=/etc/dconf/profile
+
+# /etc/dconf/db/site.d/00_gooroom-custom-keybinding
+if [ -e $TARGET_DB_DIR/$CUSTOM_KEYBINDING ]; then
+    rm $TARGET_DB_DIR/$CUSTOM_KEYBINDING
+
+    # update the system dconf db
+    dconf update
+fi
+
+# /etc/dconf/profile/user
+if [ -e $TARGET_PROFILE_DIR/$PROFILE_USER ]; then
+    rm $TARGET_PROFILE_DIR/$PROFILE_USER
+
+    # update the system dconf db
+    dconf update
+fi
+
+exit 0
