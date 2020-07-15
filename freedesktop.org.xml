@@ -41195,4 +41195,20 @@
     </magic>
   </mime-type>
 
+  <mime-type type="application/x-cell">
+    <comment>Hancom Office CELL Document</comment>
+    <comment xml:lang="ko">한컴오피스 한셀 문서</comment>
+    <alias type="application/vnd.hancom.cell"/>
+    <generic-icon name="x-office-spreadsheet"/>
+    <glob pattern="*.cell"/>
+  </mime-type>
+
+  <mime-type type="application/x-show">
+    <comment>Hancom Office SHOW Document</comment>
+    <comment xml:lang="ko">한컴오피스 한쇼 문서</comment>
+    <alias type="application/vnd.hancom.show"/>
+    <generic-icon name="x-office-presentation"/>
+    <glob pattern="*.show"/>
+  </mime-type>
+
 </mime-info>
