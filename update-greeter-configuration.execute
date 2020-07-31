@@ -18,31 +18,13 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #
 
-GOOROOM_FREEDESKTOP_ORG=freedesktop.org.xml
-GOOROOM_MIMEAPPS_LIST=mimeapps.list
+GOOROOM_GREETER_CONF=99_gooroom-greeter.conf
 SOURCE_DIR=/usr/share/gooroom-artwork-gnome-flashback
+TARGET_DIR=/usr/share/lightdm/lightdm.conf.d
 
 #
-# - /usr/share/mime/packages/freedesktop.org.xml
+# - /usr/share/lightdm/lightdm.conf.d/99_gooroom-greeter.conf
 #
-if [ -e $SOURCE_DIR/$GOOROOM_FREEDESKTOP_ORG ]; then
-    target_dir=/usr/share/mime/packages
-    cp $SOURCE_DIR/$GOOROOM_FREEDESKTOP_ORG $target_dir
-
-    update-mime-database /usr/share/mime
-fi
-
-#
-# - /usr/share/applications/mimeapps.list
-# - /usr/share/applications/gnome-mimeapps.list
-#
-if [ -e $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST ]; then
-    target_dir=/usr/share/applications
-    cp $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST $target_dir
-
-    if [ -e $target_dir/gnome-mimeapps.list ]; then
-        cp $SOURCE_DIR/$GOOROOM_MIMEAPPS_LIST $target_dir/gnome-mimeapps.list
-    fi
-
-    update-desktop-database /usr/share/applications
+if [ -e $SOURCE_DIR/$GOOROOM_GREETER_CONF ]; then
+    cp $SOURCE_DIR/$GOOROOM_GREETER_CONF $TARGET_DIR
 fi
