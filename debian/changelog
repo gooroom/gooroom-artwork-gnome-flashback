@@ -1,3 +1,13 @@
+gooroom-artwork-gnome-flashback (0.3.2+grm2u1) unstable; urgency=medium
+
+  [ cjheo ]
+  * [ec6275ed] Add mime-type for 'cell' and 'show' document
+  * [9fd88569] Added configuration for gooroom-greeter
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 31 Jul 2020 10:35:51 +0900
+
 gooroom-artwork-gnome-flashback (0.3.1+grm2u1) unstable; urgency=medium
 
   [ cjheo ]
