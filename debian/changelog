@@ -1,3 +1,12 @@
+gooroom-artwork-gnome-flashback (0.3.3+grm2u1) unstable; urgency=medium
+
+  [ jongkyung.woo ]
+  * [96f76b93] Added xdg-user-dirs dependency in control
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 04 Sep 2020 16:05:59 +0900
+
 gooroom-artwork-gnome-flashback (0.3.2+grm2u1) unstable; urgency=medium
 
   [ cjheo ]
