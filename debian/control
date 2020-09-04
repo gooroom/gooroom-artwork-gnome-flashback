@@ -17,6 +17,7 @@ Depends: libglib2.0-bin,
          gooroom-dockbarx-dockx,
          debian-system-adjustments,
 # simple-cdd
-         libpam-mount
+         libpam-mount,
+         xdg-user-dirs
 Description: Default artwork for Gooroom Plaform 2.0
  Panel, schemas and all the artwork on Gooroom Plaform 2.0
