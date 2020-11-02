@@ -15,7 +15,6 @@ Depends: libglib2.0-bin,
          gooroom-dockbarx,
          gooroom-dockbarx-common,
          gooroom-dockbarx-dockx,
-         debian-system-adjustments,
 # simple-cdd
          libpam-mount,
          xdg-user-dirs
