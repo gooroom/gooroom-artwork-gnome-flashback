@@ -1,3 +1,15 @@
+gooroom-artwork-gnome-flashback (0.3.4+grm2u1) unstable; urgency=medium
+
+  [ HaeRyong Jeong ]
+  * [91e13b01] Removed x-hwp, x-show, x-cell in freedesktop.org
+
+  [ jongkyung.woo ]
+  * [7545e4d3] Remove debian-system-adjustments dependency
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Mon, 02 Nov 2020 16:07:37 +0900
+
 gooroom-artwork-gnome-flashback (0.3.3+grm2u1) unstable; urgency=medium
 
   [ jongkyung.woo ]
