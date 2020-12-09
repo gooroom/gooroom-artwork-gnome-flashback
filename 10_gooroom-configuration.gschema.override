@@ -137,3 +137,8 @@ switch-to-workspace-up=[]
 toggle-fullscreen=['<Alt>F11']
 toggle-maximized=['<Super>Up']
 unmaximize=[]
+
+[org.nemo.desktop]
+home-icon-visible=true
+trash-icon-visible=true
+volumes-visible=true
