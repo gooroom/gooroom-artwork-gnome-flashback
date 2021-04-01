@@ -1,3 +1,12 @@
+gooroom-artwork-gnome-flashback (0.3.7+grm2u1) unstable; urgency=medium
+
+  [ Haru ]
+  * [bb622b85] [Bug:3116] gnome-flashback-common language translation.
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 01 Apr 2021 09:40:09 +0900
+
 gooroom-artwork-gnome-flashback (0.3.6+grm2u1) unstable; urgency=medium
 
   [ donghun ]
