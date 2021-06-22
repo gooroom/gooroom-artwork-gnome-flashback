@@ -1,3 +1,10 @@
+gooroom-artwork-gnome-flashback (0.3.8+grm2u1) unstable; urgency=medium
+
+  [ donghun ]
+  * [72b98729] Added nemo gschema for desktop icon display(download)
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 22 Jun 2021 16:52:55 +0900
+
 gooroom-artwork-gnome-flashback (0.3.7+grm2u1) unstable; urgency=medium
 
   [ Haru ]
