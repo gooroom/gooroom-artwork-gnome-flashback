@@ -18,12 +18,16 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #
 
-GOOROOM_PANEL_DEFAULT_LAYOUT=panel-default-layout.layout
+DEFAULT_PANEL_LAYOUT=default.layout
+GNOME_FLASHBACK_PANEL_LAYOUT=gnome-flashback.layout
 SOURCE_DIR=/usr/share/gooroom-artwork-gnome-flashback
-TARGET_DIR=/usr/share/gnome-panel
+TARGET_DIR=/usr/share/gnome-panel/layouts
 
-if [ -e $SOURCE_DIR/$GOOROOM_PANEL_DEFAULT_LAYOUT ]; then
-   cp $SOURCE_DIR/$GOOROOM_PANEL_DEFAULT_LAYOUT $TARGET_DIR
+if [ -e $SOURCE_DIR/$DEFAULT_PANEL_LAYOUT ]; then
+   cp $SOURCE_DIR/$DEFAULT_PANEL_LAYOUT $TARGET_DIR
 fi
 
+if [ -e $SOURCE_DIR/$GNOME_FLASHBACK_PANEL_LAYOUT ]; then
+   cp $SOURCE_DIR/$GNOME_FLASHBACK_PANEL_LAYOUT $TARGET_DIR
+fi
 

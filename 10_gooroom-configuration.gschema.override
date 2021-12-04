@@ -1,35 +1,37 @@
 [org.gnome.desktop.background]
 show-desktop-icons=false
-picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_bg_29.jpg'
+picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_theme_bg_4.jpg'
 picture-options='zoom'
 primary-color='#000000'
 secondary-color='#000000'
 
 [org.gnome.desktop.interface]
-gtk-theme='Arc'
-icon-theme='Gooroom-Papirus'
-font-name='NanumGothic 10'
-document-font-name='NanumGothic 10'
+gtk-theme='Flat-Remix-GTK-Blue-Darker'
+icon-theme='Gooroom-Numix-Circle'
+font-name='나눔고딕 11'
+document-font-name='나눔고딕 11'
 
 [org.gnome.gnome-flashback]
-bluetooth-applet=false
+desktop=true
 notifications=false
-power-applet=false
-sound-applet=false
 status-notifier-watcher=false
-desktop-background=true
 
 [org.gnome.desktop.wm.preferences]
 num-workspaces=1
 
+[org.gnome.gnome-panel.general]
+default-layout='gnome-flashback'
+confirm-panel-removal=false
+
+[org.gnome.gnome-panel.lockdown]
+locked-down=true
+
 [org.gnome.gnome-panel.toplevel.theme]
-bg-color='rgba(0,0,0,0.8)'
-fg-color='rgb(255,255,255)'
+bg-color='rgba(0,0,0,0.7)'
 custom-bg-color=true
-custom-fg-color=true
 
 [org.gnome.desktop.screensaver]
-picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_bg_29.jpg'
+picture-uri='file:///usr/share/backgrounds/gooroom/gooroom_theme_bg_4.jpg'
 picture-options='zoom'
 primary-color='#000000'
 secondary-color='#000000'
@@ -39,35 +41,23 @@ lock-delay=0
 [org.gnome.desktop.lockdown]
 disable-user-switching=true
 
-[org.gnome.gnome-panel.lockdown]
-locked-down=true
-
 [org.gnome.metacity]
 alt-tab-thumbnails=true
 
 [org.gnome.nautilus.icon-view]
 default-zoom-level='small'
-
 [org.gnome.nautilus.list-view]
 default-zoom-level='small'
 
 [org.gnome.settings-daemon.plugins.power]
 sleep-inactive-ac-timeout=0
-
 [org.gnome.settings-daemon.plugins.color]
 night-light-schedule-automatic=false
-
-[apps.gooroom-indicator-applet]
-blacklist=['nimf-indicator']
-
-[apps.gooroom-notifyd]
-primary-monitor=1
-
 [org.gnome.settings-daemon.plugins.media-keys]
-www='<Super>b'
-home='<Super>e'
-logout='<Super>o'
-control-center='<Super>c'
+www=['<Super>b']
+home=['<Super>e']
+logout=['<Super>o']
+control-center=['<Super>c']
 
 [org.gnome.desktop.wm.keybindings]
 begin-move=[]
@@ -134,14 +124,17 @@ switch-to-workspace-last=[]
 switch-to-workspace-left=[]
 switch-to-workspace-right=[]
 switch-to-workspace-up=[]
+switch-windows=[]
+switch-windows-backward=[]
+toggle-above=[]
 toggle-fullscreen=['<Alt>F11']
 toggle-maximized=['<Super>Up']
+toggle-on-all-workspaces=[]
 unmaximize=[]
 
-[org.nemo.desktop]
-home-icon-visible=true
-trash-icon-visible=true
-volumes-visible=false
-horizontal-grid-adjust=0.7
-vertical-grid-adjust=0.9
-text-ellipsis-limit=1
+[apps.gooroom-indicator-applet]
+blacklist=['nimf-indicator']
+
+[apps.gooroom-notifyd]
+primary-monitor=1
+

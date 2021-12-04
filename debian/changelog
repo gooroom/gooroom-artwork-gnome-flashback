@@ -1,3 +1,13 @@
+gooroom-artwork-gnome-flashback (0.4.1+grm3u1) unstable; urgency=medium
+
+  [ cjheo ]
+  * [41aed272] Rebase for gooroom-3.0
+
+  [ boyeon.choi ]
+  * [3ab29f38] Added script for userdel
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Sat, 04 Dec 2021 15:42:25 +0900
+
 gooroom-artwork-gnome-flashback (0.3.7+grm2u1) unstable; urgency=medium
 
   [ Haru ]

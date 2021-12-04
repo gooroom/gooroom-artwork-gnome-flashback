@@ -1,0 +1,45 @@
+[Toplevel bottom-panel]
+orientation=bottom
+size=60
+
+[Object gooroom-applauncher-applet]
+object-iid=kr.gooroom.applauncher.applet::gooroom-applauncher-applet
+toplevel-id=bottom-panel
+pack-type=start
+pack-index=0
+
+[Object dockbarx-applet]
+object-iid=kr.gooroom.dockbarx.applet::gooroom-dockbarx-applet
+toplevel-id=bottom-panel
+pack-type=start
+pack-index=1
+
+[Object notification-area]
+object-iid=org.gnome.gnome-panel.notification-area::notification-area
+toplevel-id=bottom-panel
+pack-type=end
+pack-index=4
+
+[Object gooroom-indicator-applet]
+object-iid=kr.gooroom.indicator.applet::gooroom-indicator-applet
+toplevel-id=bottom-panel
+pack-type=end
+pack-index=3
+
+[Object gooroom-notice-applet]
+object-iid=kr.gooroom.notice.applet::gooroom-notice-applet
+toplevel-id=bottom-panel
+pack-type=end
+pack-index=2
+
+[Object gooroom-integration-applet]
+object-iid=kr.gooroom.integration.applet::gooroom-integration-applet
+toplevel-id=bottom-panel
+pack-type=end
+pack-index=1
+
+[Object gooroom-showdesktop-applet]
+object-iid=kr.gooroom.showdesktop.applet::gooroom-showdesktop-applet
+toplevel-id=bottom-panel
+pack-type=end
+pack-index=0
