@@ -1,3 +1,11 @@
+gooroom-artwork-gnome-flashback (0.4.2+grm3u1) unstable; urgency=medium
+
+  [ cjheo ]
+  * [7be7862a] gooroom-greeter의 99_gooroom-greeter.conf의 내용변경으로 인한
+               99_gooroom-greeter.conf 파일 변경
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Wed, 08 Dec 2021 18:53:38 +0900
+
 gooroom-artwork-gnome-flashback (0.4.1+grm3u1) unstable; urgency=medium
 
   [ cjheo ]
