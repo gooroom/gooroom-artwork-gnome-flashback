@@ -1,3 +1,10 @@
+gooroom-artwork-gnome-flashback (0.4.4+grm3u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [d94f0705] Deleted mime-type - x-cell, x-show
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Sat, 05 Mar 2022 13:38:32 +0900
+
 gooroom-artwork-gnome-flashback (0.4.3+grm3u1) unstable; urgency=medium
 
   [ subin.kim ]
