@@ -1,3 +1,17 @@
+gooroom-artwork-gnome-flashback (0.4.4+grm3u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [d94f0705] Deleted mime-type - x-cell, x-show
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Sat, 05 Mar 2022 13:38:32 +0900
+
+gooroom-artwork-gnome-flashback (0.4.3+grm3u1) unstable; urgency=medium
+
+  [ subin.kim ]
+  * [2c5bf8b8] [Bug:4065]Updated desktop name - celluloid, eog
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Sun, 27 Feb 2022 14:51:13 +0900
+
 gooroom-artwork-gnome-flashback (0.4.2+grm3u1) unstable; urgency=medium
 
   [ cjheo ]
